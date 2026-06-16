@@ -1,0 +1,53 @@
+{
+  "name": "workflows-api",
+  "version": "1.0.0",
+  "description": "Restful API's for multi Tenant workflows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vstl25/workflows-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/vstl25/workflows-api/issues"
+  },
+  "homepage": "https://github.com/vstl25/workflows-api#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "express-slow-down": "^3.1.0",
+    "helmet": "^8.2.0",
+    "hpp": "^0.2.3",
+    "joi": "^18.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.11.0",
+    "node-cron": "^4.2.1",
+    "pg": "^8.21.0",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^25.9.3",
+    "@types/pg": "^8.20.0",
+    "nodemon": "^3.1.14",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
